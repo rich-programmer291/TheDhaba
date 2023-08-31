@@ -93,12 +93,3 @@ footer p{
     font-size: 20px;
     color: var(--color-tertiary);
 }
-
-hr{
-     width: 100%;
-    background-color: var(--color-tertiary);
-    height: 5px;
-    border: none;
-    margin: 5% 0;
-    opacity: 100%;
-}
