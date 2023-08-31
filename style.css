@@ -1,0 +1,83 @@
+:root {
+    --color-saved: rgb(235, 10, 55);
+    --color-primary:  #fdc657;
+    --color-secondary: #FFF6DC;
+    --color-tertiary:  #EF6262;
+}
+
+.btn {
+    background-color: var(--color-tertiary);
+}
+
+body {
+    background-color: var(--color-secondary);
+    font-family: 'Poppins', sans-serif;
+    ;
+}
+
+.card {
+    margin-top: 30px;
+    box-shadow: 1px 3px 7px 0px black;
+}
+
+.navbar {
+    background-color: var(--color-primary);
+    height: 75px;
+}
+
+#bestsellers {
+    margin: 3% 3%;
+    font-family: inherit;
+    
+}
+
+.divider{
+    width: 100%;
+    background-color: var(--color-tertiary);
+    height: 5px;
+    border: none;
+    margin: 5% 0;
+    opacity: 100%;
+
+}
+
+#bestsellers i{
+    font-size: 20px;
+    color: rgb(255, 213, 0);
+    margin-right: 7px;
+}
+
+.bestseller{
+    font-size: 20px;
+}
+
+#about{
+    display: flex;
+}
+
+.about-left{
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+}
+
+.about-right{
+    margin-top: 5%;
+    align-items: center;
+    justify-content: right;
+    text-align: justify;
+}
+.dance{
+    height: 500px;
+    width: auto;
+}
+
+.fa-location-dot{
+    color: var(--color-tertiary);
+    margin-right: 8px;
+}
+
+.fa-phone{
+    color: var(--color-tertiary);
+    margin-right: 8px;
+}
