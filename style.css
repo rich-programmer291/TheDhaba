@@ -82,12 +82,23 @@ body {
     margin-right: 8px;
 }
 
-footer p{
+footer{
     display: flex;
+    text-align: center;
+    justify-content: center;
+}
+    
+footer p{
     font-family: inherit;
     font-size: 20px;
     color: var(--color-tertiary);
-    text-align: center;
-    justify-content: center;
-    margin-top: 5%;
+}
+
+hr{
+     width: 100%;
+    background-color: var(--color-tertiary);
+    height: 5px;
+    border: none;
+    margin: 5% 0;
+    opacity: 100%;
 }
