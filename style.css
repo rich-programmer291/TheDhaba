@@ -81,3 +81,13 @@ body {
     color: var(--color-tertiary);
     margin-right: 8px;
 }
+
+footer p{
+    display: flex;
+    font-family: inherit;
+    font-size: 20px;
+    color: var(--color-tertiary);
+    text-align: center;
+    justify-content: center;
+    margin-top: 5%;
+}
